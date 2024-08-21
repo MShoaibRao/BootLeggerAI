@@ -1,6 +1,8 @@
 import tensorflow as tf
 import numpy as np
 
+#terminal based
+
 # Function to tokenize input data
 def tokenize_input(data):
     tokenizer = tf.keras.preprocessing.text.Tokenizer()
